@@ -1,0 +1,7 @@
+.venv/
+outputs
+datasets/ticoder-caches-gpts-5-17-24/
+.DS_Store
+results/
+__pycache__
+.env

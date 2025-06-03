@@ -1,0 +1,19 @@
+[project]
+name = "ticoder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "astunparse>=1.6.3",
+    "azure-identity>=1.23.0",
+    "dm-tree>=0.1.8",
+    "numpy>=2.0.2",
+    "openai>=1.78.1",
+    "pebble>=5.1.1",
+    "pydantic>=2.11.4",
+    "pyext>=0.7",
+    "python-dotenv>=1.1.0",
+    "tiktoken>=0.9.0",
+    "tqdm>=4.67.1",
+]
