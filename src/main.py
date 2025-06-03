@@ -183,7 +183,8 @@ def tappy_entry_func(prog_data, orig_codes, codes, results, n):
                     'num_pos_tests' : len(tests),
                     'num_neg_tests' : len(neg_tests),
                     'status'        : status,
-                    'weights'       : weights
+                    'weights'       : weights,
+                    'codes'         : codes
                 }
         if get_pruned_stats_in_global:
             num_of_original_tests_left = 0
